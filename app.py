@@ -17,7 +17,7 @@ if not groq_api_key:
     st.info("Please add your Groq API Key in the sidebar to continue.")
 
 else:
-    llm = ChatGroq(model='llama-3.1-8b-instant', groq_api_key=groq_api_key)
+    llm = ChatGroq(model='llama-3.3-70b-versatile', groq_api_key=groq_api_key)
 
     wikipedia_wrapper = WikipediaAPIWrapper()
     wikipedia_tool = Tool(
