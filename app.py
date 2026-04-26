@@ -34,8 +34,8 @@ else:
     )
 
     prompt = """
-    You are an agent tasked for solving users mathematical question. Logically arrive at the solution
-    and display it step wise to the user.
+           Your a agent tasked for solving users mathemtical question. Logically arrive at the solution and provide a detailed explanation
+           and display it point wise for the question below.
 
     Question:{question}
     Answer:
